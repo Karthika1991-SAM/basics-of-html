@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Illustration</title>
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e0e7ef;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #f2f4f8;
+            width: 1000px;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #666;
+            font-weight: bold;
+        }
+
+        .header nav a.active {
+            color: #4ba3fb;
+        }
+
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .header .login {
+            background-color: #4ba3fb;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content .text {
+            max-width: 50%;
+        }
+
+        .content h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .content h1 span {
+            color: #4ba3fb;
+        }
+
+        .content p {
+            color: #666;
+            margin: 20px 0;
+        }
+
+        .content .btn {
+            background-color: #4ba3fb;
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .content .image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .footer .social-icons a {
+            margin: 0 10px;
+            color: #4ba3fb;
+            text-decoration: none;
+            font-size: 24px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <div style="display: inline-block; width: 24px; height: 24px; background-color: #4ba3fb; border-radius: 50%; margin-right: 10px;"></div>
+                <div style="display: inline-block; width: 24px; height: 24px; background-color: #4ba3fb; border-radius: 50%;"></div>
+            </div>
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Service</a>
+            </nav>
+            <a href="#" class="login">Login</a>
+        </div>
+        <div class="content">
+            <div class="text">
+                <h1>Grow Your <span>Bussines</span> With Us!</h1>
+                <p>Effective UI design goes beyond how your brand looks. It's about how it makes your audience feel. It incorporates your colors, type, imagery, graphics and logo to bring your brand to life.</p>
+                <a href="#" class="btn">Get Started</a>
+            </div>
+            <div class="image">
+                <img src="./assets/images/img.png" alt="Illustration">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-comment"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
